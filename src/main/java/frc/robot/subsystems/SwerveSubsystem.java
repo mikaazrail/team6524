@@ -51,7 +51,6 @@ public class SwerveSubsystem extends SubsystemBase {
       throw new RuntimeException(e);
     }
 
-    
     setupPathPlanner();
   }
 
@@ -111,6 +110,9 @@ public class SwerveSubsystem extends SubsystemBase {
   }
 
  /**
+   * Setup AutoBuilder for PathPlanner.
+   */
+   /**
    * Setup AutoBuilder for PathPlanner.
    */
   public void setupPathPlanner()
@@ -189,4 +191,7 @@ public class SwerveSubsystem extends SubsystemBase {
     return new PathPlannerAuto(pathName);
   }
 }
+
+
+
 
